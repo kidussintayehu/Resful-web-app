@@ -14,7 +14,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid={API k
 
 or using insomnia you can call api
 
- - example weather response for addis ababa at jan 8
+ - example weather response for addis ababa at jan 8 ,2022
 
 
 """
@@ -72,7 +72,7 @@ fetch('http://worldtimeapi.org/api/timezone/{continent name}/{country name}')
 
 or using insomnia you can call api
 
-- example time response for addis ababa at jan 8
+- example time response for addis ababa at jan 8 ,2022
 
 {
 	"abbreviation": "EAT",
