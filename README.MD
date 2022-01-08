@@ -9,7 +9,9 @@ basically this repository contain the restful version of world time and weather 
 - weather api
 
 curl api.openweathermap.org/data/2.5/weather?q=${cityName}&appid={API key}
+
 fetch('http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid={API key}')
+
 or using insomnia you can call api
 
 - time api
