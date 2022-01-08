@@ -15,6 +15,8 @@ fetch('http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid={API k
 or using insomnia you can call api
 
  - example weather response for addis ababa at jan 8
+
+
 """
 {
 	"coord": {
