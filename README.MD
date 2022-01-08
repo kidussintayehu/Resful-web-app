@@ -15,6 +15,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid={API k
 or using insomnia you can call api
 
  - example weather response for addis ababa at jan 8
+"""
 {
 	"coord": {
 		"lon": 38.7469,
@@ -60,7 +61,7 @@ or using insomnia you can call api
 	"cod": 200
 }
 
-
+"""
 #### time api
 - example time response for addis ababa at jan 8
 curl http://worldtimeapi.org/api/timezone/{continent name}/{city name}
