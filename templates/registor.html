@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="styles_registor.css">
+</head>
+
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <nav><a href="index.html">back</a>
+                <a href="login.html">login</a>
+            </nav>
+
+        </div>
+    </div>
+    <div id="signinFrm">
+        <form class='form'>
+            <h1 class="title">signup</h1>
+            <small class="error-message" id="username-message">error message</small>
+            <div class="inputContainer">
+                <input name="name" type="text" class="input" id="userName" autocomplete="off" placeholder="username">
+                <label for="" class="label">username</label>
+            </div>
+            <small class="error-message" id="password-message">error message</small>
+
+            <div class="inputContainer">
+                <input name="password" type="password" class="input" id="Password" autocomplete="off" placeholder="password">
+                <label for="" class="label">Password</label></div>
+            <div class="inputContainer">
+                <label for="start"> Date: </label>
+                <input type="date" name="day" class="date" id="date" value="2021-07-22">
+
+            </div>
+            <small class="error-message" id="date-message">error message</small>
+
+            <button id="submit" class="submitBtn ">register</button>
+        </form>
+    </div>
+    <h1 id="success"></h1>
+
+    <script src="form_valid_registor.js"></script>
+</body>
+
+</html>

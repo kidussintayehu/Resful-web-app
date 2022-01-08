@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles_index.css">
+</head>
+
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <nav><a href="weather.html">back</a></nav>
+
+        </div>
+    </div>
+
+    <h1>cityname : {{ city_name}}</h1>
+    <p>
+        country code : {{country_code}}<br> longtitude : {{ longitude }}<br> latitude : {{ latitude }}<br>temprature maximum : {{ temp_max }}<br> temprature minimum : {{ temp_min }}<br> temprature : {{ temprature_average }}<br> pressure : {{pressure}}
+        <br> humidity : {{ humidity }}<br> wind speed : {{ wind_speed }}<br>cloud type : {{cloud}}
+
+    </p>
+    <div class="fixed-footer">
+        <nav>
+            <a href="index.html"> logout </a>
+        </nav>
+    </div>
+
+</body>
+
+</html>

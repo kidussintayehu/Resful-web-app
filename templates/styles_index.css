@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    background-image: url(../static/img/b.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    /* Center the DIV horizontally */
+}
+
+.fixed-header,
+.fixed-footer {
+    width: 100%;
+    position: absolute;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.fixed-header {
+    top: 0;
+}
+
+.fixed-footer {
+    bottom: 0;
+}
+
+
+/* Some more styles to beutify this example */
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+p {
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    margin-block-start: 2em;
+}
+
+h2 {
+    color: #fff;
+}
