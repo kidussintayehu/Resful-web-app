@@ -13,9 +13,11 @@ fetch('http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid={API k
 or using insomnia you can call api
 
 - time api
-- 
+
 curl http://worldtimeapi.org/api/timezone/{continent name}/{country name}
+
 fetch('http://worldtimeapi.org/api/timezone/{continent name}/{country name}')
+
 or using insomnia you can call api
 
 
