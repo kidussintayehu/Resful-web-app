@@ -65,7 +65,7 @@ or using insomnia you can call api
 
 """
 #### time api
-- example time response for addis ababa at jan 8
+
 curl http://worldtimeapi.org/api/timezone/{continent name}/{city name}
 
 fetch('http://worldtimeapi.org/api/timezone/{continent name}/{country name}')
